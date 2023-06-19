@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #FFFF00; /* Change to your desired background color */
+    }
+    
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #8B8000; /* Change to your desired circle color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+    
+    .circle-content {
+      font-family: Arial, sans-serif;
+    }
+    .pink-padding {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px; /* Adjust the height of the pink padding */
+      background-color: #f35b7f; /* Change to your desired color */
+      content: "";
+    }
+    .shape {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px; /* Adjust the height of the shape */
+      background-color: yellow; /* Change to your desired color */
+      clip-path: polygon(50% 47%, 30% 0, 70% 0); /* Customize the shape using polygon points */
+    }	
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle">
+      <span class="circle-content">:)</span>
+    </div>
+	</div>
+  <div class="pink-padding"></div>
+
+  </div>
+  </div>
+    <div class="shape"></div>
+  </div>
+  </div>
+</body>
+</html>
